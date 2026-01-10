@@ -32,4 +32,20 @@
     <loc>https://woodallhvac.com/hvac-frankfort.html</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://woodallhvac.com/gallery.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://woodallhvac.com/projects/zionsville-ac-install.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://woodallhvac.com/projects/lebanon-furnace-repair.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://woodallhvac.com/projects/whitestown-new-construction.html</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
