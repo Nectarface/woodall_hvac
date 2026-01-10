@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVAC Specials & Coupons | Woodall Heating & Cooling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans flex flex-col min-h-screen">
+    <nav class="bg-blue-950 text-white py-4 px-6 sticky top-0 z-50 shadow-xl border-b border-blue-900">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl font-black tracking-tighter flex items-center gap-2">
+                <i class="fas fa-snowflake text-blue-400"></i>
+                <span>WOODALL <span class="text-blue-500">HVAC</span></span>
+            </a>
+            <ul class="hidden lg:flex gap-8 text-sm font-bold uppercase tracking-widest">
+                <li><a href="index.html" class="transition-colors text-slate-300 hover:text-white">Home</a></li><li><a href="specials.html" class="transition-colors text-blue-400">Specials</a></li><li><a href="pricing.html" class="transition-colors text-slate-300 hover:text-white">Pricing</a></li><li><a href="maintenance.html" class="transition-colors text-slate-300 hover:text-white">Comfort Club</a></li><li><a href="contact.html" class="transition-colors text-slate-300 hover:text-white">Contact</a></li>
+            </ul>
+            <a href="tel:7655550199" class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full font-bold transition-all text-sm">
+                (765) 555-0199
+            </a>
+        </div>
+    </nav>
+
+    <main class="flex-grow">
+            <section class="bg-blue-900 text-white py-24 px-6 text-center">
+        <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6 uppercase italic">Current HVAC Coupons <br>& Rebates in Boone County</h1>
+        <p class="text-xl text-blue-100 max-w-2xl mx-auto">Save big on your next repair or installation with these exclusive Woodall incentives.</p>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8 mb-24">
+            <div class="bg-white border-4 border-dashed border-blue-200 p-8 rounded-3xl relative overflow-hidden group">
+                <div class="absolute -top-4 -right-4 w-16 h-16 bg-blue-600 rotate-45 flex items-end justify-center pb-2 text-white font-bold text-xs">HOT</div>
+                <h3 class="text-2xl font-black mb-2">$89 Seasonal Tune-Up</h3>
+                <p class="text-slate-500 text-sm mb-6 leading-relaxed">Ensure your system is safe and efficient. Includes 21-point safety inspection.</p>
+                <div class="text-3xl font-black text-blue-600 mb-8">$89.00</div>
+                <button onclick="document.getElementById('claim-form').scrollIntoView({behavior: 'smooth'})" class="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-blue-600 transition-all">CLAIM NOW</button>
+            </div>
+            <div class="bg-white border-4 border-dashed border-red-200 p-8 rounded-3xl relative overflow-hidden">
+                <h3 class="text-2xl font-black mb-2">$500 Off New Install</h3>
+                <p class="text-slate-500 text-sm mb-6 leading-relaxed">Save on any full system replacement (Furnace & AC). High-efficiency units only.</p>
+                <div class="text-3xl font-black text-red-600 mb-8">$500.00 OFF</div>
+                <button onclick="document.getElementById('claim-form').scrollIntoView({behavior: 'smooth'})" class="w-full bg-red-600 text-white py-4 rounded-xl font-bold hover:bg-red-700 transition-all">CLAIM NOW</button>
+            </div>
+            <div class="bg-white border-4 border-dashed border-slate-200 p-8 rounded-3xl">
+                <h3 class="text-2xl font-black mb-2">FREE Second Opinion</h3>
+                <p class="text-slate-500 text-sm mb-6 leading-relaxed">Quoted too high? let us check and we will beat it or confirm it.</p>
+                <div class="text-3xl font-black text-slate-900 mb-8">FREE</div>
+                <button onclick="document.getElementById('claim-form').scrollIntoView({behavior: 'smooth'})" class="w-full bg-slate-200 text-slate-900 py-4 rounded-xl font-bold hover:bg-slate-300 transition-all">CLAIM NOW</button>
+            </div>
+        </div>
+
+        <div id="claim-form" class="bg-blue-50 p-12 rounded-3xl border border-blue-100 max-w-3xl mx-auto">
+            <h2 class="text-3xl font-black mb-4 text-center">Claim Your Coupon</h2>
+            <p class="text-slate-600 text-center mb-10">Fill out this form and we will apply the discount to your service call.</p>
+            <form action="thank-you.html" method="POST" data-netlify="true" name="coupon_claim_form" class="space-y-6">
+                <input type="hidden" name="form-name" value="coupon_claim_form">
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <input type="text" name="name" placeholder="Full Name" class="w-full p-4 rounded-xl border border-blue-200 outline-none focus:border-blue-500" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" class="w-full p-4 rounded-xl border border-blue-200 outline-none focus:border-blue-500" required>
+                </div>
+                <select name="coupon" class="w-full p-4 rounded-xl border border-blue-200 outline-none focus:border-blue-500" required>
+                    <option value="">Select Your Coupon</option>
+                    <option value="tune-up">$89 Tune-Up</option>
+                    <option value="install">$500 Off New Install</option>
+                    <option value="opinion">FREE Second Opinion</option>
+                </select>
+                <button class="w-full bg-blue-600 text-white py-5 rounded-xl font-black text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20">RESERVE MY DISCOUNT</button>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer class="bg-blue-950 text-slate-400 py-12 px-6 border-t border-blue-900">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-sm uppercase tracking-widest text-white font-bold mb-4">Woodall Heating & Cooling</p>
+            <p class="mb-6">Lebanon, IN • Available 24/7 for Emergency Service</p>
+            <div class="flex justify-center gap-6 text-xs uppercase tracking-widest font-bold">
+                <a href="specials.html" class="hover:text-white">Specials</a>
+                <a href="pricing.html" class="hover:text-white">Pricing Guide</a>
+                <a href="maintenance.html" class="hover:text-white">Maintenance</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
