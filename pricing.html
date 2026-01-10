@@ -6,130 +6,84 @@
     <title>2026 HVAC Pricing Guide | Woodall Heating & Cooling</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "HVAC Replacement and Service",
-      "brand": { "@type": "Brand", "name": "Woodall Heating & Cooling" },
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "USD",
-        "lowPrice": "89.00",
-        "highPrice": "8500.00",
-        "offerCount": "10",
-        "offers": [
-          {
-            "@type": "Offer",
-            "name": "Seasonal Tune-Up",
-            "price": "89.00",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "89.00",
-              "priceCurrency": "USD",
-              "valueAddedTaxIncluded": "false"
-            }
-          },
-          {
-            "@type": "Offer",
-            "name": "Furnace Replacement",
-            "price": "4000.00",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "price": "4000.00",
-              "priceCurrency": "USD"
-            }
-          }
-        ]
-      }
-    }
-    </script>
-    <style>
-        .star-rating i:hover, .star-rating i.active { color: #fbbf24; }
-    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans flex flex-col min-h-screen">
-    <nav class="bg-blue-950 text-white py-4 px-6 sticky top-0 z-50 shadow-xl border-b border-blue-900">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <a href="index.html" class="text-xl font-black tracking-tighter flex items-center gap-2">
-                <i class="fas fa-snowflake text-blue-400"></i>
-                <span>WOODALL <span class="text-blue-500">HVAC</span></span>
-            </a>
-            <ul class="hidden lg:flex gap-8 text-sm font-bold uppercase tracking-widest">
-                <li><a href="index.html" class="transition-colors text-slate-300 hover:text-white">Home</a></li><li><a href="pricing.html" class="transition-colors text-blue-400">Pricing</a></li><li><a href="reviews.html" class="transition-colors text-slate-300 hover:text-white">Reviews</a></li><li><a href="maintenance.html" class="transition-colors text-slate-300 hover:text-white">Comfort Club</a></li><li><a href="contact.html" class="transition-colors text-slate-300 hover:text-white">Contact</a></li>
-            </ul>
-            <a href="tel:7655550199" class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full font-bold transition-all text-sm">
-                <i class="fas fa-phone-alt mr-2"></i> (765) 555-0199
-            </a>
+<body class="bg-gray-50 text-gray-900 font-sans flex flex-col min-h-screen">
+    <nav class="bg-blue-900 text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <a href="index.html" class="font-bold text-xl uppercase tracking-widest flex items-center gap-2">
+                        <i class="fa-solid fa-snowflake text-blue-300"></i> Woodall
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html" class="hover:text-blue-300 font-medium">Home</a>
+                    <a href="services.html" class="hover:text-blue-300 font-medium">Services</a>
+                    <a href="pricing.html" class="hover:text-blue-300 font-medium">Pricing</a>
+                    <a href="reviews.html" class="hover:text-blue-300 font-medium">Reviews</a>
+                    <a href="maintenance.html" class="text-yellow-400 font-bold border border-yellow-400 px-4 py-2 rounded hover:bg-yellow-400 hover:text-blue-900 transition">Join Club</a>
+                    <a href="app/dashboard.html" class="bg-blue-800 px-4 py-2 rounded hover:bg-blue-700 text-sm">Tech Portal</a>
+                </div>
+            </div>
         </div>
     </nav>
-
     <main class="flex-grow">
+
+        <div class="max-w-4xl mx-auto px-4 py-12">
+            <h1 class="text-4xl font-bold text-blue-900 mb-4">2026 HVAC Pricing Guide</h1>
+            <p class="text-xl text-gray-600 mb-12">No secrets. Just honest numbers for Boone County homeowners.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-red-600">
+                    <h2 class="text-2xl font-bold mb-2">Furnace Install</h2>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">$4k - $7k</p>
+                    <p class="text-gray-500 text-sm mb-6">Includes removal of old unit, new plenum, and 10-year warranty.</p>
+                    <ul class="text-left space-y-2 mb-8 text-gray-700">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> 80% to 96% Efficiency</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Smart Thermostat Included</li>
+                    </ul>
+                    <a href="app/seer_calc.html" class="block w-full text-center bg-red-600 text-white font-bold py-3 rounded hover:bg-red-700">Get Exact Quote</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-600">
+                    <h2 class="text-2xl font-bold mb-2">AC Replacement</h2>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">$5k - $8k</p>
+                    <p class="text-gray-500 text-sm mb-6">Full condenser and evaporator coil replacement.</p>
+                    <ul class="text-left space-y-2 mb-8 text-gray-700">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> 13 to 18 SEER2</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> New Pad & Disconnect</li>
+                    </ul>
+                    <a href="app/seer_calc.html" class="block w-full text-center bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700">Calculate Savings</a>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gray-600">
+                    <h2 class="text-2xl font-bold mb-2">Repair & Tune-Up</h2>
+                    <p class="text-4xl font-bold text-gray-900 mb-4">$89</p>
+                    <p class="text-gray-500 text-sm mb-6">Standard diagnostic fee. Waived if you proceed with repair.</p>
+                    <ul class="text-left space-y-2 mb-8 text-gray-700">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> 21-Point Inspection</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> No Overtime Fees</li>
+                    </ul>
+                    <a href="contact.html" class="block w-full text-center bg-gray-800 text-white font-bold py-3 rounded hover:bg-gray-700">Book Service</a>
+                </div>
+            </div>
+            
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "PriceSpecification",
+              "price": "4000",
+              "priceCurrency": "USD",
+              "minPrice": "4000",
+              "maxPrice": "7000",
+              "description": "Furnace Installation Cost Lebanon IN"
+            }
+            </script>
+        </div>
         
-    <section class="bg-blue-900 text-white py-24 px-6 text-center">
-        <div class="max-w-4xl mx-auto">
-            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6">2026 HVAC Pricing Guide <br>for Lebanon, IN</h1>
-            <p class="text-xl text-blue-100 opacity-90">Honest, transparent, and local. Know exactly what to expect before we arrive.</p>
-        </div>
-    </section>
-
-    <section class="py-24 px-6">
-        <div class="max-w-5xl mx-auto grid gap-8">
-            <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6">
-                <div>
-                    <h3 class="text-2xl font-bold">Furnace Replacement</h3>
-                    <p class="text-slate-500">Standard 80% to High-Efficiency 96%+ Systems.</p>
-                </div>
-                <div class="text-center md:text-right">
-                    <div class="text-4xl font-black text-blue-600">$4,000 - $7,000</div>
-                    <p class="text-[10px] uppercase font-bold tracking-widest text-slate-400 mt-1">Installed & Warrantied</p>
-                </div>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6">
-                <div>
-                    <h3 class="text-2xl font-bold">AC Installation</h3>
-                    <p class="text-slate-500">Central Air units from 14 SEER2 to 18+ SEER2.</p>
-                </div>
-                <div class="text-center md:text-right">
-                    <div class="text-4xl font-black text-blue-600">$5,000 - $8,000+</div>
-                    <p class="text-[10px] uppercase font-bold tracking-widest text-slate-400 mt-1">Installed & Warrantied</p>
-                </div>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6">
-                <div>
-                    <h3 class="text-2xl font-bold">Annual Maintenance / Tune-Up</h3>
-                    <p class="text-slate-500">Comprehensive 21-point safety inspection.</p>
-                </div>
-                <div class="text-center md:text-right">
-                    <div class="text-4xl font-black text-red-600">$89</div>
-                    <p class="text-[10px] uppercase font-bold tracking-widest text-slate-400 mt-1">Flat Rate / No Trip Fee</p>
-                </div>
-            </div>
-
-            <div class="mt-12 bg-blue-50 border-2 border-dashed border-blue-200 p-12 rounded-3xl text-center">
-                <h2 class="text-3xl font-black mb-4">Get an Exact Quote for Your Home</h2>
-                <p class="text-slate-600 mb-8 max-w-xl mx-auto">Every home is different. Use our savings calculator to see the ROI on a new high-efficiency system.</p>
-                <a href="app/seer_calc.html" class="inline-block bg-blue-600 text-white px-10 py-4 rounded-2xl font-black text-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20">CALCULATE MY SAVINGS</a>
-            </div>
-        </div>
-    </section>
-    
     </main>
-
-    <footer class="bg-blue-950 text-slate-400 py-12 px-6 border-t border-blue-900">
-        <div class="max-w-7xl mx-auto text-center">
-            <p class="text-sm uppercase tracking-widest text-white font-bold mb-4">Woodall Heating & Cooling</p>
-            <p class="mb-6">Lebanon, IN • Serving Boone County Since 2004</p>
-            <div class="flex flex-wrap justify-center gap-6 text-xs uppercase tracking-widest font-bold">
-                <a href="pricing.html" class="hover:text-white">Pricing Guide</a>
-                <a href="reviews.html" class="hover:text-white">Customer Reviews</a>
-                <a href="maintenance.html" class="hover:text-white">Maintenance Plans</a>
-                <a href="contact.html" class="hover:text-white">Book Service</a>
-            </div>
-        </div>
+    <footer class="bg-gray-900 text-white py-8 text-center border-t border-gray-800">
+        <p>&copy; 2026 Woodall Heating & Cooling. Lebanon, IN.</p>
     </footer>
 </body>
 </html>
