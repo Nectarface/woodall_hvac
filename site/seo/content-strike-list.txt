@@ -1,0 +1,37 @@
+CONTENT STRIKE LIST - HOOSIER DADDY HVAC
+
+PRIORITY 1: PROBLEM-SPECIFIC PAGES (Intent: "Fix it now")
+1. /furnace-leaking-water-lebanon-in
+   - Keyword: "furnace leaking water"
+   - Angle: Condensate line clogs (common in high-efficiency units).
+2. /furnace-smells-like-burning-lebanon-in
+   - Keyword: "furnace burning smell"
+   - Angle: Dust vs. electrical danger. Safety first.
+3. /ac-blowing-warm-air-lebanon-in
+   - Keyword: "ac blowing warm air"
+   - Angle: Capacitor failure or refrigerant leak.
+4. /thermostat-blank-screen-lebanon-in
+   - Keyword: "thermostat not working"
+   - Angle: Batteries vs. blown fuse/transformer.
+
+PRIORITY 2: COMPETITOR COMPARISON (Intent: "Who to hire")
+5. /williams-comfort-air-alternative-lebanon
+   - Keyword: "hvac companies lebanon comparison"
+   - Angle: "Big Corporate vs. Local Owner. Why you pay less with us."
+   - Note: Be respectful, compare models (Commission vs. Flat Rate), not quality bashing.
+
+PRIORITY 3: LOCAL GUIDE (Intent: "Information")
+6. /best-hvac-filters-for-indiana-allergies
+   - Keyword: "hvac filters for allergies"
+   - Angle: Lebanon has high pollen/dust (farming). MERV ratings explained.
+7. /heat-pump-vs-furnace-boone-county
+   - Keyword: "heat pump vs gas furnace indiana"
+   - Angle: Efficiency data for our specific climate zone.
+
+PRIORITY 4: BRAND DEFENSE
+8. /hoosier-daddy-hvac-financing
+   - Keyword: "hvac financing lebanon"
+   - Angle: Details on financing partners (GreenSky, etc.).
+9. /hoosier-daddy-hvac-warranty
+   - Keyword: "hvac warranty repair"
+   - Angle: Our labor guarantee vs. manufacturer warranty.

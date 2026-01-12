@@ -1,0 +1,41 @@
+LOCAL LINK TARGETS - LEBANON, IN
+
+1. Boone County Chamber of Commerce
+   - Type: Directory Listing / Member Profile
+   - Cost: Membership Fee
+   - Value: High (Local Relevance)
+
+2. The Lebanon Reporter
+   - Type: Press Release / "New Business" Feature
+   - Cost: Free (Pitch) or Sponsored
+   - Value: High (Local News Authority)
+
+3. City of Lebanon Official Website (Business Directory)
+   - Type: Government Link
+   - Cost: Free (If available)
+   - Value: Very High (.gov trust)
+
+4. Local Real Estate Agents (Blogs)
+   - Type: Guest Post ("HVAC Checklist for Home Buyers")
+   - Cost: Time/Relationship
+   - Value: Moderate (Relevance)
+
+5. Lebanon High School Athletics
+   - Type: Sponsorship (Banner/Website Link)
+   - Cost: Sponsorship Fee
+   - Value: Moderate (Community Trust)
+
+6. Nextdoor (Neighborhood Sponsorship)
+   - Type: Local Social
+   - Cost: Ad Spend
+   - Value: Traffic (Not SEO link, but local signals)
+
+7. Boone County Senior Services
+   - Type: Resource List (Senior Discount mention)
+   - Cost: Free/Partnership
+   - Value: High (Niche relevance)
+
+ANCHOR TEXT STRATEGY
+- 70% Branded: "Hoosier Daddy HVAC", "Hoosier Daddy", "hoosierdaddyhvac.com"
+- 20% Naked URL: "https://www.hoosierdaddyhvac.com"
+- 10% Local/Keyword: "HVAC repair in Lebanon", "furnace repair service"

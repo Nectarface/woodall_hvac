@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Hoosier Daddy HVAC",
+  "image": "https://www.hoosierdaddyhvac.com/public/img/logo.svg",
+  "@id": "https://www.hoosierdaddyhvac.com",
+  "url": "https://www.hoosierdaddyhvac.com",
+  "telephone": "765-482-4328",
+  "email": "service@hoosierdaddyhvac.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lebanon",
+    "addressLocality": "Lebanon",
+    "addressRegion": "IN",
+    "postalCode": "46052",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.0531,
+    "longitude": -86.4667
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/hoosierdaddyhvac"
+  ],
+  "priceRange": "$$",
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Lebanon",
+      "sameAs": "https://en.wikipedia.org/wiki/Lebanon,_Indiana"
+    },
+    {
+      "@type": "City",
+      "name": "Zionsville",
+      "sameAs": "https://en.wikipedia.org/wiki/Zionsville,_Indiana"
+    },
+    {
+      "@type": "City",
+      "name": "Whitestown",
+      "sameAs": "https://en.wikipedia.org/wiki/Whitestown,_Indiana"
+    },
+    {
+      "@type": "City",
+      "name": "Thorntown",
+      "sameAs": "https://en.wikipedia.org/wiki/Thorntown,_Indiana"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Boone County",
+      "sameAs": "https://en.wikipedia.org/wiki/Boone_County,_Indiana"
+    }
+  ]
+}

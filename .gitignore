@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.log
+
+# Project specific
+site/ops/
+site/scripts/
+site/halocore/
+site/gbp/
+site/ads/

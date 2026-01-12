@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a furnace service call cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our standard diagnostic fee is $99. This fee is waived if you choose to move forward with the repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer emergency HVAC service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer 24/7 emergency service for no-heat and no-cool situations in Lebanon and Boone County."
+      }
+    }
+  ]
+}

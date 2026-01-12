@@ -1,0 +1,215 @@
+:root {
+    --black: #0a0a0a;
+    --gunmetal: #2a2f35;
+    --purple: #4a148c;
+    --purple-light: #7c43bd;
+    --burnt-orange: #d84315;
+    --burnt-orange-hover: #bf360c;
+    --text-light: #f5f5f5;
+    --text-gray: #cccccc;
+    --white: #ffffff;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--text-light);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+h1 { font-size: 2.5rem; color: var(--white); }
+h2 { font-size: 2rem; color: var(--white); border-bottom: 2px solid var(--purple); display: inline-block; padding-bottom: 5px; margin-bottom: 1.5rem; }
+h3 { font-size: 1.5rem; color: var(--text-gray); }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: var(--black);
+    border-bottom: 3px solid var(--purple);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a:hover {
+    color: var(--burnt-orange);
+}
+
+.cta-button {
+    background-color: var(--burnt-orange);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cta-button:hover {
+    background-color: var(--burnt-orange-hover);
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/hero-bg.jpg'); /* Fallback color if image missing */
+    background-color: var(--gunmetal);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.service-card {
+    background-color: var(--gunmetal);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--purple);
+}
+
+.service-card h3 {
+    color: var(--burnt-orange);
+    margin-bottom: 1rem;
+}
+
+/* Pricing Table */
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.pricing-card {
+    background-color: var(--gunmetal);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.pricing-card.featured {
+    border: 2px solid var(--purple);
+    transform: scale(1.05);
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white);
+    margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--gunmetal);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    border-top: 3px solid var(--purple);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h4 {
+    color: var(--burnt-orange);
+    margin-bottom: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 0.5rem;
+}
+
+/* Mobile Sticky CTA */
+.mobile-sticky-cta {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--burnt-orange);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    z-index: 2000;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Simple hiding for prototype */
+    }
+    .mobile-sticky-cta {
+        display: block;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    body {
+        padding-bottom: 60px; /* Space for sticky CTA */
+    }
+}

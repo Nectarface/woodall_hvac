@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Furnace Repair",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Hoosier Daddy HVAC",
+    "telephone": "765-482-4328"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "Indiana"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Heating Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Furnace Diagnostic"
+        },
+        "price": "99.00",
+        "priceCurrency": "USD"
+      }
+    ]
+  }
+}
